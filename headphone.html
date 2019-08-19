@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+     .headphone
+        {
+            padding: 0;
+            margin: 20px;
+            display: block;
+            width: 100px;
+            height: 70px;
+            box-sizing: border-box;
+            background-color: transparent;
+            border: 7px solid #019767;
+            border-bottom: none;
+            border-radius: 50px 50px 0 0;
+            position: relative;
+        }
+        .headphone:before
+        {
+            content: '';
+            display: block;
+            border: 7px solid #019767;
+            width: 35px;
+            height: 40px;
+            box-sizing: border-box;
+            border-radius: 25px 0 0 25px;
+            position: absolute;
+            bottom: -34px;
+            left: -25px;
+        }
+        .headphone:after
+        {
+            content: '';
+            display: block;
+            border: 7px solid #019767;
+            width: 35px;
+            height: 40px;
+            box-sizing: border-box;
+            border-radius: 0 25px 25px 0;
+            position: absolute;
+            bottom: -34px;
+            right: -25px;
+        }
+    </style>
+    <body>
+        
+        
+    <div class="headphone">
+        </div>
+    </body>
+    </head>
+</html>
