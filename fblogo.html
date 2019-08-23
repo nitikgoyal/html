@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .facebook
+        {
+            display: block;
+            background-color: antiquewhite;
+            width: 90px;
+            height: 90px;
+            border-radius: 10px;
+            position: relative;
+        }
+        .facebook:before
+        {
+            content: '';
+            display: block;
+            width: 25px;
+            height: 80px;
+            border-radius: 20px 0 0 0;
+            border: 13px solid #3B5999;
+            border-right: none;
+            border-bottom: none;
+            box-sizing: border-box;
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+        }
+        .facebook:after{
+            content: '';
+            position: absolute;
+            display: block;
+            width: 35px;
+            height: 10px;
+            bottom: 40px;
+            right: 20px;
+            background-color: #3B5999;
+        }
+        
+    </style>
+    <body>
+        <div class='facebook'></div>
+    </body>
+    </head>
+</html>
